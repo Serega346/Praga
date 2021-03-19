@@ -23,7 +23,7 @@ const Layout = () => {
 
     return (
         <div className={lStyle.layout} style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL + 'img/background.png'})`
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/img/background.png'})`
         }}>
             <Main onSwiper={setSwiper} controller={{control: swiperThumbs}}/>
             <Footer onSwiper={setSwiperThumbs} controller={{control: swiper}}/>

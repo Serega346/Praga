@@ -9,7 +9,7 @@ const Footer = (props) => {
     return (
 
         <footer className={fStyle.footer}
-                style={{backgroundImage: `url(${process.env.PUBLIC_URL + 'img/bridge.png'})`}}>
+                style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/img/bridge.png'})`}}>
             <Swiper
                 onSwiper={props.onSwiper}
                 controller={props.controller}
