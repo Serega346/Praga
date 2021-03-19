@@ -14,6 +14,7 @@ const Main = (props) => {
                     controller={props.controller}
                     slidesPerView={1}
                     loop={true}
+                    loopedSlides={5}
 
             >
                 <SwiperSlide className={foodStyle.swiper}>
