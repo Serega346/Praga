@@ -15,33 +15,45 @@ const Main = (props) => {
                     slidesPerView={1}
                     loop={true}
                     loopedSlides={5}
-
             >
                 <SwiperSlide className={foodStyle.swiper}>
+                    <h1 className={foodStyle.categoryName}>Фастфуд</h1>
+                    <FoodItem/>
+                    <FoodItem/>
+                    <FoodItem/>
+                    <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                 </SwiperSlide>
                 <SwiperSlide className={foodStyle.swiper}>
+                    <h1 className={foodStyle.categoryName}>Напої</h1>
+                    <FoodItem/>
+                    <FoodItem/>
+                    <FoodItem/>
+                    <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                 </SwiperSlide>
                 <SwiperSlide className={foodStyle.swiper}>
+                    <h1 className={foodStyle.categoryName}>Десерти</h1>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                 </SwiperSlide>
                 <SwiperSlide className={foodStyle.swiper}>
+                    <h1 className={foodStyle.categoryName}>Категорія</h1>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>
                 </SwiperSlide>
                 <SwiperSlide className={foodStyle.swiper}>
+                    <h1 className={foodStyle.categoryName}>Категорія</h1>
                     <FoodItem/>
                     <FoodItem/>
                     <FoodItem/>

@@ -14,25 +14,39 @@ const Footer = (props) => {
                 onSwiper={props.onSwiper}
                 controller={props.controller}
                 centeredSlides={true}
-                initialSlide={2}
                 loop={true}
                 slideToClickedSlide={true}
                 slidesPerView={3}
                 className={fStyle.footerSwiper}>
                 <SwiperSlide className={fStyle.swiperSlide}>
-                    <div className={fStyle.footerItem}>1</div>
+                    <div className={`${fStyle.footerItem} footerItem`}>
+                        <img src={`${process.env.PUBLIC_URL + '/img/burger-ico.svg'}`} alt="ico"
+                             className={fStyle.footerItemImg}/>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className={fStyle.swiperSlide}>
-                    <div className={fStyle.footerItem}>2</div>
+                    <div className={`${fStyle.footerItem} footerItem`}>
+                        <img src={`${process.env.PUBLIC_URL + '/img/burger-ico.svg'}`} alt="ico"
+                             className={fStyle.footerItemImg}/>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className={fStyle.swiperSlide}>
-                    <div className={fStyle.footerItem}>3</div>
+                    <div className={`${fStyle.footerItem} footerItem`}>
+                        <img src={`${process.env.PUBLIC_URL + '/img/burger-ico.svg'}`} alt="ico"
+                             className={fStyle.footerItemImg}/>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className={fStyle.swiperSlide}>
-                    <div className={fStyle.footerItem}>4</div>
+                    <div className={`${fStyle.footerItem} footerItem`}>
+                        <img src={`${process.env.PUBLIC_URL + '/img/beer.svg'}`} alt="ico"
+                             className={fStyle.footerItemImg}/>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className={fStyle.swiperSlide}>
-                    <div className={fStyle.footerItem}>5</div>
+                    <div className={`${fStyle.footerItem} footerItem`}>
+                        <img src={`${process.env.PUBLIC_URL + '/img/sweet.svg'}`} alt="ico"
+                             className={fStyle.footerItemImg}/>
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </footer>

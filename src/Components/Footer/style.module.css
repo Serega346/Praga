@@ -19,10 +19,12 @@
 
 .footerItem {
 
+    text-align: center;
     width: 50px;
     height: 50px;
-    background-color: hotpink;
     border-radius: 50%;
+    border: 2px solid whitesmoke;
+    background-color: #D7DD8D;
 
 }
 
@@ -37,6 +39,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 75px;
 
+}
+
+
+.footerItemImg {
+    margin-top: 5px;
 }
 

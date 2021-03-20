@@ -1,7 +1,18 @@
+@media only screen and (max-width: 372px) {
+    .foodCard {
+        margin: 3px !important;
+    }
+}
+
 .foodCard {
 
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 170px;
+    height: 185px;
+    border: 5px solid #8DADDD;
+    border-radius: 25%;
+    backdrop-filter: blur(10px);
+    margin: 8px;
 
 }
 
@@ -10,11 +21,18 @@
 }
 
 .foodTitle {
-
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: -20px;
 }
 
 .foodCaption {
-
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .foodWeight {
