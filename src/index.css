@@ -1,4 +1,4 @@
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 385px) {
     .swiper-slide-prev .footerItem {
         margin-left: 10px !important;
     }
@@ -6,6 +6,23 @@
     .swiper-slide-next .footerItem {
         margin-right: 10px !important;
     }
+}
+
+@media only screen and (orientation: landscape) {
+    #maxWidthLimit {
+        display: flex !important;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 100000000000;
+    }
+    #maxWidthLimitText {
+        display: block !important;
+    }
+    #root {
+        display: none;}
 }
 
 body {
@@ -46,4 +63,17 @@ body {
 
 .swiper-container {
     z-index: 0;
+}
+
+main {
+
+    padding-bottom: 170px;
+
+}
+
+#maxWidthLimit {
+    display: none;
+}
+#maxWidthLimitText {
+    display: none;
 }
