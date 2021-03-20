@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Praga/static/css/main.d471c4a1.chunk.css",
+    "main.css": "/Praga/static/css/main.c10d8c0f.chunk.css",
     "main.js": "/Praga/static/js/main.3eb191b5.chunk.js",
     "main.js.map": "/Praga/static/js/main.3eb191b5.chunk.js.map",
     "runtime-main.js": "/Praga/static/js/runtime-main.444b2a84.js",
@@ -12,14 +12,14 @@
     "static/js/3.e74e263a.chunk.js.map": "/Praga/static/js/3.e74e263a.chunk.js.map",
     "index.html": "/Praga/index.html",
     "static/css/2.295464ac.chunk.css.map": "/Praga/static/css/2.295464ac.chunk.css.map",
-    "static/css/main.d471c4a1.chunk.css.map": "/Praga/static/css/main.d471c4a1.chunk.css.map",
+    "static/css/main.c10d8c0f.chunk.css.map": "/Praga/static/css/main.c10d8c0f.chunk.css.map",
     "static/js/2.0a702bf1.chunk.js.LICENSE.txt": "/Praga/static/js/2.0a702bf1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.444b2a84.js",
     "static/css/2.295464ac.chunk.css",
     "static/js/2.0a702bf1.chunk.js",
-    "static/css/main.d471c4a1.chunk.css",
+    "static/css/main.c10d8c0f.chunk.css",
     "static/js/main.3eb191b5.chunk.js"
   ]
 }
